@@ -1,8 +1,4 @@
-# Restaurant-Lives-Standard
-This is the program given to know how good lives standard of restaurant in San Fransisco
-
-
-1.1 Prasyarat 
+Prasyarat 
 Hal yang diperlukan untuk menginstal perangkat lunak dan cara menggunakannya :
 R Language
 R Studio
@@ -35,17 +31,17 @@ Ada 3 proses yang penting dalam pembuatan program ini, yaitu :
 Pengumpulan data
     Data dari restoran-restoran di seluruh tempat di San Fransisco dikumpulkan untuk dilihat data-datanya, dan begitu juga dengan data inspeksi yang dilakukan untuk menentukan restoran tersebut masuk ke golongan high risk(beresiko tinggi) atau low risk(beresiko rendah). 
 
-     2.     Input data
+     1.    Input data
     Data-data tersebut kemudian di-compile dan dimasukkan ke dalam excel.
 
-     3.    Pengelompokkan data
+     2.    Pengelompokkan data
     Data yang sudah dimasukkan ke dalam excel tersebut kemudian dijadikan bentuk csv, lalu dalam R studio kita memasukkan data-data tersebut agar dapat terbaca pada program yang akan kita jalankan nanti dan dapat dikelompokkan menurut kelompoknya masing-masing.
 
-     4.     Pengelolaan data
+     3.     Pengelolaan data
     Data yang sudah dikelompokan akan diolah oleh R Studio, dengan memperhitungkan data-data yang sudah dimasukan. Setelah data diolah oleh R Studio hasil akan diberikan dalam bentuk grafik dan tabel perhitungan dengan standar yang sudah ditentukan.
     
     
-    2.1 Asumsi Sistem Program
+2.1 Asumsi Data
 -	Data (csv) yang merupakan kumpulan informasi dari setiap restoran di San Fransisco akan di-input. 
 -	Setiap data yang ada mewakili golongan masing-masing, apakah restoran tersebut berada pada kelompok nilai low risk, high risk atau moderate risk.
 -	Jika data sudah terinput nantinya setiap golongan akan digabungkan dengan golongannya masing-masing untuk dilihat angka dari tiap-tiap golongan. 
@@ -57,18 +53,15 @@ Pengumpulan data
 
 Gambar di atas merupakan contoh dari penerapan input data, data yang ingin kita masukkan adalah data Lives Scores Standard restoran-restoran yang ada di San Fransisco. Output-nya akan seperti :
  
-
+![redempp](RO2.PNG)
 Gambar di atas ini adalah output yang akan keluar jika kita mengakses code input dari data yang tersedia. 
 
- 
-
+![reuse](RO3.PNG)
 code yang digunakan untuk mengelompokkan jumlah inspection score 
 
- 
+![boi](RO4.PNG)
 
- 
-
-Output yang keluar setelah code dijalankan, dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Setelah itu dapat dikelompokkan dari tiap-tiap golongan, dan berikut adalah golongan low risk :
+ Output yang keluar setelah code dijalankan, dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Setelah itu dapat dikelompokkan dari tiap-tiap golongan, dan berikut adalah golongan low risk :
 
  
 
