@@ -56,10 +56,10 @@ Gambar di atas merupakan contoh dari penerapan input data, data yang ingin kita 
 ![redempp](RO2.PNG)
 Gambar di atas ini adalah output yang akan keluar jika kita mengakses code input dari data yang tersedia. 
 
-![reuse](RO3.PNG)
+![reuse](ro3.PNG)
 code yang digunakan untuk mengelompokkan jumlah inspection score 
 
-![boi](RO4.PNG)
+![boi](ro4.PNG)
 
  Output yang keluar setelah code dijalankan, dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Setelah itu dapat dikelompokkan dari tiap-tiap golongan, dan berikut adalah golongan low risk :
 
