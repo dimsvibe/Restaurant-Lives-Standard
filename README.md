@@ -63,18 +63,20 @@ code yang digunakan untuk mengelompokkan jumlah inspection score
 
  Output yang keluar setelah code dijalankan, dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Setelah itu dapat dikelompokkan dari tiap-tiap golongan, dan berikut adalah golongan low risk :
 
- 
+![laf](ro5.PNG)
 
 dan berikut merupakan output dari code yang dijalankan :
 
  
-
+![lof](ro6.PNG)
+![loqi](ro7.PNG)
 
  
 dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Contohnya seperti terdapat 4 restoran yang hanya memiliki nilai 45  dalam inspection_scores dan termasuk low risk. Lalu dapat dilihat juga pengelompokkan golongan high risk adalah seperti berikut :
 
  
-
+![lohan](ro8.PNG)
+![lolo](ro9.PNG)
  
 
  
@@ -82,7 +84,9 @@ dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspe
 dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Contohnya seperti terdapat 5 restoran yang hanya memiliki nilai 45  dalam inspection_scores dan termasuk high risk. Lalu dapat dilihat juga pengelompokkan golongan moderate risk adalah seperti berikut :
  
 
-
+![lop](ro10.PNG)
+![loz](ro11.PNG)
+![lock](ro12.PNG)
  
 
 
@@ -90,7 +94,9 @@ dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspe
 
 dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Contohnya seperti terdapat 3 restoran yang hanya memiliki nilai 100 dalam inspection_scores dan termasuk moderate risk. Lalu dapat dilihat juga pengelompokkan golongan ketiganya :
 
- 
+ ![loi](ro10.PNG)
+ ![lol](ro10.PNG)
+ ![lox](ro10.PNG)
 
  
  
@@ -100,7 +106,9 @@ Dapat dilihat bahwa data yang unggul dalam pengolahan data tersebut adalah kateg
 
 
 
+
 Data (csv) yang merupakan kumpulan informasi dari setiap restoran di San Fransisco akan di-input. 
+
 Setiap data yang ada mewakili golongan masing-masing, apakah restoran tersebut berada pada kelompok nilai low risk, high risk atau moderate risk.
 Jika data sudah terinput nantinya setiap golongan akan digabungkan dengan golongannya masing-masing untuk dilihat angka dari tiap-tiap golongan. 
 Setiap golongan akan menerima jumlah yang berbeda-beda.
