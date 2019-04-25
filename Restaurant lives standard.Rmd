@@ -1,0 +1,61 @@
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(ggplot2)
+
+res_scores <- read.csv("restaurant-scores-lives-standard.csv")
+
+res_scores %>% filter(year(inspection_date) == year(today())) %>% count()
+
+# Number of each resutrant score given
+resturant_scores <- res_scores %>%
+    group_by(inspection_score) %>%
+    tally() %>%
+    na.omit()
+
+ggplot(resturant_scores, aes(y = n, x = inspection_score)) +
+  geom_bar(stat="identity")
+  
+# number of scores given to low risk resturants
+resturant_scores_lowrisk <- res_scores %>%
+    filter(risk_category == "Low Risk") %>%
+    group_by(inspection_score) %>%
+    tally() %>%
+    na.omit()
+
+ggplot(resturant_scores_lowrisk, aes(y = n, x = inspection_score)) +
+  geom_bar(stat="identity")
+  
+  # number of scores given to moderate risk resturants
+resturant_scores_moderaterisk <- res_scores %>%
+    filter(risk_category == "Moderate Risk") %>%
+    group_by(inspection_score) %>%
+    tally() %>%
+    na.omit()
+
+ggplot(resturant_scores_moderaterisk, aes(y = n, x = inspection_score)) +
+  geom_bar(stat="identity")
+  
+  
+  # number of scores given to high risk resturants
+resturant_scores_highrisk <- res_scores %>%
+    filter(risk_category == "High Risk") %>%
+    group_by(inspection_score) %>%
+    tally() %>%
+    na.omit()
+
+ggplot(resturant_scores_highrisk, aes(y = n, x = inspection_score)) +
+  geom_bar(stat="identity")
+  
+# low risk, moderate risk, and high risk resturants percentage of total scored
+risk_cat <- res_scores %>%
+group_by(risk_category) %>%
+tally() %>%
+na.omit()
+
+bp<- ggplot(risk_cat, aes(x= "", y=n, fill=risk_category))+
+geom_bar(width = 1, stat = "identity")
+
+pie <- bp + coord_polar("y", start=0)
+pie
+
