@@ -53,7 +53,7 @@ Pengumpulan data
 			
 2.2 Penjelasan
 
-	 ![redemp](RO1.png)
+	 ![redemp](RO1).png
 
 Gambar di atas merupakan contoh dari penerapan input data, data yang ingin kita masukkan adalah data Lives Scores Standard restoran-restoran yang ada di San Fransisco. Output-nya akan seperti :
  
