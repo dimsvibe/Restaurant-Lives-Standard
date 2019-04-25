@@ -94,9 +94,9 @@ dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspe
 
 dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Contohnya seperti terdapat 3 restoran yang hanya memiliki nilai 100 dalam inspection_scores dan termasuk moderate risk. Lalu dapat dilihat juga pengelompokkan golongan ketiganya :
 
- ![loi](ro10.PNG)
- ![lol](ro10.PNG)
- ![lox](ro10.PNG)
+ ![loi](ro13.PNG)
+ ![lol](ro14.PNG)
+ ![lox](ro15.PNG)
 
  
  
