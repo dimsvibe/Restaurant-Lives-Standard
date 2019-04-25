@@ -108,7 +108,8 @@ dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspe
 
 Dapat dilihat bahwa data yang unggul dalam pengolahan data tersebut adalah kategori Low Risk, yang mencapai angka 19702 restoran.
 
-
+ ![lox](ro16.PNG)
+ ![lox](ro17.PNG)
 
 
 
