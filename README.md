@@ -43,6 +43,68 @@ Pengumpulan data
 
      4.     Pengelolaan data
     Data yang sudah dikelompokan akan diolah oleh R Studio, dengan memperhitungkan data-data yang sudah dimasukan. Setelah data diolah oleh R Studio hasil akan diberikan dalam bentuk grafik dan tabel perhitungan dengan standar yang sudah ditentukan.
+    
+    
+    2.1 Asumsi Sistem Program
+-	Data (csv) yang merupakan kumpulan informasi dari setiap restoran di San Fransisco akan di-input. 
+-	Setiap data yang ada mewakili golongan masing-masing, apakah restoran tersebut berada pada kelompok nilai low risk, high risk atau moderate risk.
+-	Jika data sudah terinput nantinya setiap golongan akan digabungkan dengan golongannya masing-masing untuk dilihat angka dari tiap-tiap golongan. 
+-	Setiap golongan akan menerima jumlah yang berbeda-beda.
+			
+2.2 Penjelasan
+
+	 ![redemp]RO1.png
+
+Gambar di atas merupakan contoh dari penerapan input data, data yang ingin kita masukkan adalah data Lives Scores Standard restoran-restoran yang ada di San Fransisco. Output-nya akan seperti :
+ 
+
+Gambar di atas ini adalah output yang akan keluar jika kita mengakses code input dari data yang tersedia. 
+
+ 
+
+code yang digunakan untuk mengelompokkan jumlah inspection score 
+
+ 
+
+ 
+
+Output yang keluar setelah code dijalankan, dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Setelah itu dapat dikelompokkan dari tiap-tiap golongan, dan berikut adalah golongan low risk :
+
+ 
+
+dan berikut merupakan output dari code yang dijalankan :
+
+ 
+
+
+ 
+dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Contohnya seperti terdapat 4 restoran yang hanya memiliki nilai 45  dalam inspection_scores dan termasuk low risk. Lalu dapat dilihat juga pengelompokkan golongan high risk adalah seperti berikut :
+
+ 
+
+ 
+
+ 
+
+dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Contohnya seperti terdapat 5 restoran yang hanya memiliki nilai 45  dalam inspection_scores dan termasuk high risk. Lalu dapat dilihat juga pengelompokkan golongan moderate risk adalah seperti berikut :
+ 
+
+
+ 
+
+
+ 
+
+dapat dilihat jumlah restoran (n) dan nilai inspeksi yang mereka dapatkan (inspection_score). Contohnya seperti terdapat 3 restoran yang hanya memiliki nilai 100 dalam inspection_scores dan termasuk moderate risk. Lalu dapat dilihat juga pengelompokkan golongan ketiganya :
+
+ 
+
+ 
+ 
+
+Dapat dilihat bahwa data yang unggul dalam pengolahan data tersebut adalah kategori Low Risk, yang mencapai angka 19702 restoran.
+
+
 
 
 Data (csv) yang merupakan kumpulan informasi dari setiap restoran di San Fransisco akan di-input. 
