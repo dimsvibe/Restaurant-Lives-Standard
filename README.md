@@ -1,3 +1,8 @@
+Nama Kelompok :
+Ariel Dimitri Alejandro - 01082170032
+David Imanuel Kase	- 01082170024
+Jacky Siek		- 01082170040
+
 Prasyarat 
 Hal yang diperlukan untuk menginstal perangkat lunak dan cara menggunakannya :
 R Language
